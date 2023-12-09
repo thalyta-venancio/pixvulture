@@ -12,7 +12,7 @@ body {
     flex-direction: column;
     align-items: center;
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 9%, rgba(154,205,208,1) 51%, rgba(97,156,158,1) 94%);
+background: linear-gradient(180deg, rgba(255,255,255,1) 6%, rgba(227,137,237,1) 46%, rgba(177,163,228,1) 77%, rgba(172,166,227,1) 78%, rgba(67,222,208,1) 99%);
 }
 
 
