@@ -69,10 +69,15 @@
         <div class="simulator">
 
             <h3>Simule o investimento <span>ideal</span> para o seu orçamento:</h3>
-            <input type="text" placeholder="Qual o valor do investimento?" id="textSimulator">
-            <button type="button" onclick="getID()"></button>
+            <input type="text" placeholder="Qual o valor do investimento?" id="textSimulator" class="text-simulator">
+            <div id="button">
+                <button id="button-result" type="button" onclick="getID()" disabled >
+                    <img src="./src/images/dinheiro.png" alt="Dinheiro" class="test">
+                </button>
+                <div id="result"></div>
+            </div>
 
-            <div id="result"></div>
+            
         </div>
 
     </section>
