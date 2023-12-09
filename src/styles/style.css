@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 400px) {
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.linkW > img {
+    width: 30px;
+    height: 30px;
+
+    right: 30px;
+    bottom: 30px;
+
+    position: fixed;
+    z-index: 100;
+}
+    
+header {
+    width: 100%;
+    height: 150px;
+    background-color: cadetblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+header h1 {
+    color: white;
+}
+
+nav {
+    background-color: darkcyan;
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+nav a {
+    text-decoration: none;
+
+    color: white;
+}
+
+article {
+    width: 350px;
+    height: 200px;
+
+    background-color: gray;
+
+    margin-top: 30px;
+
+    display: flex;
+
+    border-radius: 10px;
+}
+
+article img {
+    width: 55%;
+    border-radius: 10px;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    padding: 15px;
+    gap: 10px;
+}
+
+.heroText p {
+    font-size: 10px;
+    text-align: center;
+
+}
+
+section {
+    width: 100%;
+    height: 400px;
+
+    background-color: cadetblue;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+section h2 {
+    font-size: 20px;
+}
+
+
+section h2 > span {
+    font-size: 10px;
+    color: white;
+}
+
+table {
+    margin: 10px 0px;
+}
+
+td, th {
+    /* border-collapse: collapse; */
+    padding: 5px 10px;
+    text-align: left;
+    background-color: azure;
+    border: 1px solid black;    
+}
+
+.simulator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.simulator input {
+}
+
+.simulator h3 > span {
+    color: white;
+    font-size: 15px;
+}
+
+.simulator h3 {
+    font-size: 10px;
+}
+
+.simulator button {
+    width: 40px;
+    height: 10px;
+
+}
+
+}

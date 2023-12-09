@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <script src="./src/scripts/script.js"></script>
+</head>
+<body>
+
+    <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank" class="linkW">
+        <img src="./src/images/whatsapp.svg" alt="">
+    </a>
+
+    <header>
+        <img src="./src/images/logo.jpg" alt="urubo do pix" class="headerImg" >
+        <h1>Urubu do Pix</h1>
+    </header>
+
+    <nav>
+        <a href="">Trading</a>
+        <a href="">Recomendaçôes</a>
+        <a href="#hero" target="_self">Sobre</a>
+        <a href="">Contato</a>
+    </nav>
+
+    <article id="hero">
+        <img src="./src/images/hero.webp" alt="">
+        <div class="heroText">
+            <h2>Nascimento do Urubu</h2>
+            <p>Urubu do pix nasce na grande Sâo Paulo para trazer a independencia financeira para a população, após a utilização do pix pelo app de celular, enviando um valor para nossa conta mudamos sua vida.</p>
+        </div>
+    </article>
+
+    <section>
+        <h2>Tabela Trading <span>Mude sua vida agora</span></h2>
+
+        <table>
+
+            <tr>
+                <th>Investimento</th>
+                <th>Retorno</th>
+            </tr>
+
+            <tr>
+                <td>R$100</td>
+                <td>R$250</td>
+            </tr>
+
+            <tr>
+                <td>R$150</td>
+                <td>R$300</td>
+            </tr>
+
+            <tr>
+                <td>R$350</td>
+                <td>R$700</td>
+            </tr>
+
+            <tr>
+                <td>R$5000</td>
+                <td>R$1100</td>
+            </tr>
+
+        </table>
+
+       
+        <div class="simulator">
+
+            <h3>Simule o investimento <span>ideal</span> para o seu orçamento:</h3>
+            <input type="text" placeholder="Qual o valor do investimento?" id="textSimulator">
+            <button type="button" onclick="getID()"></button>
+
+            <div id="result"></div>
+        </div>
+
+    </section>
+    
+</body>
+</html>
